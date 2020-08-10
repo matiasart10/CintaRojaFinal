@@ -1,0 +1,103 @@
+.Banner {
+    background-image: url('../i/BITCOIN.jpg');
+}
+
+.hero {
+    background-size: cover;
+    background-position: unset;
+}
+.navbar {
+    padding: 0.5rem 0;
+    box-shadow: none;
+    z-index: auto;
+}
+.navbar .navbar-brand a.navbar-item img {
+    max-height: 3rem;
+}
+
+.button.is-primary.is-outlined.is-focused, .button.is-primary.is-outlined.is-hovered, .button.is-primary.is-outlined:focus, .button.is-primary.is-outlined:hover {
+    background-color: #7510F7;
+    border-color: #7510F7;
+    color: #fff;
+}
+
+.button, .input, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-menu .navbar-item {
+    font-size: 18px;
+    font-weight: 300;
+    color: #141c3a;
+}
+
+.Banner2{
+   padding-top:80px;
+   padding-bottom:80px;
+   background-color:#f8faff;
+   background-image:url('../i/trama.png');
+   background-repeat:no-repeat;
+   background-position:center top;
+}
+
+.PreFooter{
+    background-color: #1d1255;
+}
+
+.box {
+    background-color: #141c3a;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    border-radius: 12px;
+    padding: 3.5rem 1.25rem;
+
+}
+
+.FooterFinal{
+    background-color: #1d1255;
+}
+.OtroFooter{
+    vertical-align:middle;
+}
+
+footer .social-icons a.button.is-medium {
+    font-size: 1.18rem;
+}
+
+footer .social-icons a.button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 100%;
+    margin: 0 .2rem;
+    height: 47px;
+    width: 47px;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+.button .icon:first-child:last-child {
+    margin-left: calc(-.5em - 1px);
+    margin-right: calc(-.5em - 1px);
+}
+.button .icon, .button .icon.is-large, .button .icon.is-medium, .button .icon.is-small {
+    height: 1.5em;
+    width: 2.5em;
+}
