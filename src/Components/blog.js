@@ -1,7 +1,7 @@
 import React from 'react';
 import './stilo.css';
 
-const Valor = (props) => {
+const BlogNews = (props) => {
 
     const { titulo, imagen, descripcion, link } = props;
 
@@ -19,6 +19,7 @@ const Valor = (props) => {
                                     <div className="media-content">
                                         <p className="title is-4 has-text-centered">{titulo}</p>
                                         <p className="subtitle is-6">{descripcion}</p>
+                                        <a href={link} className="card-footer-item"></a>
                                     </div>
                                 </div>
                             </div>
@@ -32,4 +33,4 @@ const Valor = (props) => {
 }
 
 
-export default Valor;
+export default BlogNews;

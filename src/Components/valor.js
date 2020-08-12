@@ -1,22 +1,20 @@
 import React from 'react';
-
 import './stilo.css';
 
 
+const DivisaBtc = (props) => {
 
-const Valor = (props) => {
-
-    const { valorDivisa, tipoDivisa } = props;
+    const { code, description, rate } = props;
 
     return (
-        <section>
-            <h1 className="title is-3 has-text-black has-text-centered ">Divisa Actual</h1>
-            <h2 className="title is-3 has-text-black has-text-centered" >Modeda: {tipoDivisa}</h2>
-            <h2 className="title is-3 has-text-black has-text-centered" >1 BTC = ${valorDivisa}</h2>
-            
-        </section>
+        <div className="column is-one-quarter">
+
+            <h2 className="title is-3 has-text-black has-text-centered" >{code}</h2>
+            <h2 className="title is-3 has-text-black has-text-centered" >{description}</h2>
+            <h2 className="title is-3 has-text-black has-text-centered" >{rate}</h2>
+        </div>
     )
 }
 
 
-export default Valor;
+export default DivisaBtc;

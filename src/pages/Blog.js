@@ -20,7 +20,7 @@ const Blog = () => {
         getNoticias();
     }, []);
 
-    //   console.log(noticias);
+    console.log(noticias);
 
     return (
 
