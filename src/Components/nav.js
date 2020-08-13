@@ -21,8 +21,8 @@ class Nav extends Component {
                     <div className="navbar-end">
                         <a className="navbar-item bd-navbar-item-documentation is-active has-text-centered"
                             href="/Conversor">
-                            <span className="is-hidden-touch is-hidden-widescreen">Calculadora</span>
-                            <span className="is-hidden-desktop-only">Calculadora</span>
+                            <span className="is-hidden-touch is-hidden-widescreen">Conversor</span>
+                            <span className="is-hidden-desktop-only">Conversor</span>
                         </a>
                         <a className="navbar-item bd-navbar-item-documentation is-active has-text-centered"
                             href="/Blog">
@@ -31,6 +31,7 @@ class Nav extends Component {
                         </a>
                     </div>
                 </div>
+                
             </nav>
 
         )

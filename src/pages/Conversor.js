@@ -11,6 +11,7 @@ const Calculadora = () => {
 
   const getDivisaValor = () => {
     const URL = `https://api.coindesk.com/v2/bpi/currentprice.json`;
+    
     axios.get(URL)
       .then(respuesta => setDivisa(Object.values(respuesta.data.bpi)))
       .catch(err => console.log(err));
