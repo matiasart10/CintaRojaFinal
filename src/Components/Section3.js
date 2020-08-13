@@ -10,9 +10,9 @@ class About extends Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="title is-1 has-text-white">
-              Usa la calculadora
+              Revisa el Conversor
               </h1>
-            <h2 className="title is-2 has-text-white">para conocer la diferencia en USD</h2>
+            <h2 className="title is-2 has-text-white">para conocer la diferencia en Divisas</h2>
           </div>
         </div>
       </section>

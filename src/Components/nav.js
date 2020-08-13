@@ -20,7 +20,7 @@ class Nav extends Component {
                 <div id="navbar" className="navbar-menu">
                     <div className="navbar-end">
                         <a className="navbar-item bd-navbar-item-documentation is-active has-text-centered"
-                            href="/Calculadora">
+                            href="/Conversor">
                             <span className="is-hidden-touch is-hidden-widescreen">Calculadora</span>
                             <span className="is-hidden-desktop-only">Calculadora</span>
                         </a>

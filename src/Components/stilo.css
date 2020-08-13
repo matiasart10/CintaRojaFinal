@@ -101,3 +101,13 @@ footer .social-icons a.button {
     height: 1.5em;
     width: 2.5em;
 }
+
+.table tr.is-selected {
+    background-color: #141c3a;
+    color: #fff;
+}
+
+.bilingual-excerpt {
+    direction: rtl;
+    unicode-bidi: embed;
+}

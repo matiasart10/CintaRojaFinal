@@ -12,10 +12,10 @@ class Interes extends Component {
                                 <h1 className="title has-text-white">Saquemos cuenta</h1>
                             </div>
                             <div className="column level-item">
-                                <p>¿Interesado en hacer cálculos? Revisa la calculadora.</p>
+                                <p>¿Interesado en hacer cálculos? Revisa el Conversor de tiempo real.</p>
                             </div>
                             <div className="column level-item"><a className="has-text-white button is-primary is-outlined is-rounded is-medium"
-                                href="/Calculadora">Hágamoslo</a></div>
+                                href="/Conversor">Hágamoslo</a></div>
                         </div>
                     </div>
                 </div>

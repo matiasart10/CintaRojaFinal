@@ -7,12 +7,11 @@ const DivisaBtc = (props) => {
     const { code, description, rate } = props;
 
     return (
-        <div className="column is-one-quarter">
-
-            <h2 className="title is-3 has-text-black has-text-centered" >{code}</h2>
-            <h2 className="title is-3 has-text-black has-text-centered" >{description}</h2>
-            <h2 className="title is-3 has-text-black has-text-centered" >{rate}</h2>
-        </div>
+        <tr>
+            <td className="has-text-centered">{description}</td>
+            <td className="has-text-centered">1 BTC = {code}</td>
+            <td className="has-text-centered">{rate}</td>
+        </tr>
     )
 }
 
