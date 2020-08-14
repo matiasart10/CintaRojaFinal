@@ -1,11 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import Section5 from '../Components/Section5';
 import FormVentas from '../Components/ventas';
-import { TaskModel } from '../util/objeto';
 
 import axios from 'axios';
 
 const Dashboard = () => {
+
+  class UpdateForm {
+    constructor(nombre, telefono, email, producto, entregado, id) {
+      this[id] = {
+        nombre: nombre,
+        telefono: telefono,
+        email: email,
+        producto: producto,
+        entregado: entregado
+      }
+    }
+  }
 
   const [ventas, setVentas] = useState([]);
 
@@ -25,7 +36,7 @@ const Dashboard = () => {
 
   const URL2 = `https://devf-3e1b6.firebaseio.com/form.json`;
   const completeVentas = (nombre, telefono, email, producto, entregado, id) => {
-    const listadoVentas = new TaskModel(nombre, telefono, email, producto, entregado, id);
+    const listadoVentas = new UpdateForm(nombre, telefono, email, producto, entregado, id);
     axios.patch(URL2, listadoVentas)
       .then(() => getVentas())
       .catch((error) => alert(error))
