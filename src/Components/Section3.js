@@ -13,6 +13,7 @@ class About extends Component {
               Revisa el Conversor
               </h1>
             <h2 className="title is-2 has-text-white">para conocer la diferencia en Divisas</h2>
+            <h2 className="title is-2 has-text-white">revisa nuestros cursos</h2>
           </div>
         </div>
       </section>

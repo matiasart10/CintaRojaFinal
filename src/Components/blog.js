@@ -30,5 +30,4 @@ const BlogNews = (props) => {
     )
 }
 
-
 export default BlogNews;

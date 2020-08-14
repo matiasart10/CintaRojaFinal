@@ -3,6 +3,8 @@ import Navbar from '../Components/nav';
 import Main from './index';
 import ConversorPage from './Conversor';
 import BlogPage from './Blog';
+import DashboardPage from './Dashboard';
+
 
 import { Switch, Route, Router } from '../util/router';
 import SinPagina from './not-found.js';
@@ -19,6 +21,7 @@ function App() {
             <Route exact path='/' component={Main} />
             <Route exact path='/Conversor' component={ConversorPage} />
             <Route exact path='/Blog' component={BlogPage} />
+            <Route exact path='/Dashboard' component={DashboardPage} />
             <Route component={SinPagina} />
           </Switch>
           <Footer></Footer>

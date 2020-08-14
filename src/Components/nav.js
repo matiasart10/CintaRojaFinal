@@ -29,6 +29,11 @@ class Nav extends Component {
                             <span className="is-hidden-touch is-hidden-widescreen">Blog</span>
                             <span className="is-hidden-desktop-only">Blog</span>
                         </a>
+                        <a className="navbar-item bd-navbar-item-documentation is-active has-text-centered"
+                            href="/Dashboard">
+                            <span className="is-hidden-touch is-hidden-widescreen">Dashboard</span>
+                            <span className="is-hidden-desktop-only">Dashboard</span>
+                        </a>
                     </div>
                 </div>
                 
